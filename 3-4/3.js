@@ -2,7 +2,6 @@
 //NodeJS
 const data = require('./dados.json');
 
-console.log(data[0].valor)
 
 function menor(dia){
     let menor = 99999999;
@@ -56,6 +55,7 @@ function acimaMedia(dia, media){
     console.log(`${cont} dias tiveram uma fatura acima da media`)
     return cont;
 }
+
 
 menor(data);
 maior(data);
